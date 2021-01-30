@@ -11,7 +11,6 @@ class Q3Test {
         int[] test = {5,21,8,15,7};
         assertTrue(Q3.mySplit(test));
         int[] test2 = {1,1,2,3,4,5,6};
-//        assertFalse(Q3.mySplit(test2));
         assertTrue(Q3.mySplit(new int[] {1,1}));
         assertFalse(Q3.mySplit(new int[] {1,1,1}));
         assertTrue(Q3.mySplit(new int[] {2,4,2}));
